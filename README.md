@@ -19,7 +19,7 @@ npx create-sveltekit-pwa@latest
 
 ## Created Directories/Files
 
-1. Created files or if they exist, they will be prepended to.
+1. Created/Modified files or if they exist, they will be prepended to.
     1. ```app.html``` (If it exists, it will prepend the current file)
     2. ```manifest.json``` (If it exists, it will prepend the current file)
     3. ```service-worker.js``` (If it exists, it will prepend the current file)
@@ -27,10 +27,11 @@ npx create-sveltekit-pwa@latest
 ## Todo's after CLI install
 
  1. Update ```Manifest.json``` fields accordingly.
- 2. Build your app in the terminal ```npm run build```
- 3. Preview your app in the terminal ```npm run preview``` Should Give you a prompt to Install App
- 4. Run your app in the terminal ```npm run dev``` and continue you development.
- 5. Enjoy the creating and if you have any issues, visit my github repo and create an issue.
+ 2. Open ```app.html``` and confirm the addition by deleting whatever needs deleting.
+ 3. Build your app in the terminal ```npm run build```
+ 4. Preview your app in the terminal ```npm run preview``` Should Give you a prompt to Install App
+ 5. Run your app in the terminal ```npm run dev``` and continue you development.
+ 6. Enjoy the creating and if you have any issues, visit my github repo and create an issue.
 
 ## Author
 
