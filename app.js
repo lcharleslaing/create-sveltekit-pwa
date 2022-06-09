@@ -43,7 +43,7 @@ async function runQuery() {
         const serviceWorker = CreateServiceWorker.generateFile()
 
         const appHtmlDir = `./src`
-        const manifestDir = `./src/static`
+        const manifestDir = `./static`
         const serviceWorkerDir = `./src`
 
         makeDir(appHtmlDir)
