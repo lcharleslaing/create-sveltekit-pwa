@@ -4,7 +4,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/lcharleslaing/create-sveltekit-pwa/graphs/commit-activity)
 [![License: MIT](https://img.shields.io/github/license/lcharleslaing/create-sveltekit-pwa)](https://github.com/lcharleslaing/create-sveltekit-pwa/blob/master/LICENSE)
 
-#### A CLI tool to add Auth0 to you Sveltekit Project
+#### A CLI tool to add PWA functionality to you Sveltekit Project that works GREAT in 5 Minutes!
 
 ### 🏠 [Homepage](https://github.com/lcharleslaing/create-sveltekit-pwa)
 
@@ -14,15 +14,12 @@
 npx create-sveltekit-pwa@latest
 ```
 
-## CLI Questions
-   Enter the CLI questions whhich will create a new ```NEW-README.md``` that has more detail than the svelte generated one. It can be used in place of the Svelte generated one or simply delete it.  The required files will be added to your project.
-
 ## Created Directories/Files
 
 1. Created/Modified files or if they exist, they will be prepended to.
-    1. ```app.html``` (If it exists, it will prepend the current file)
-    2. ```manifest.json``` (If it exists, it will prepend the current file)
-    3. ```service-worker.js``` (If it exists, it will prepend the current file)
+    1. ```./src/app.html``` (If it exists, it will prepend the current file)
+    2. ```./static/manifest.json``` (If it exists, it will prepend the current file)
+    3. ```./src/service-worker.js``` (If it exists, it will prepend the current file)
 
 ## Todo's after CLI install
 
