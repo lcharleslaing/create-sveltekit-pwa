@@ -1,0 +1,34 @@
+{
+  "name": "create-sveltekit-pwa",
+  "version": "0.0.1",
+  "description": "A CLI tool to add PWA functionality to you Sveltekit Project",
+  "main": "app.js",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "prepend-file": "^2.0.1"
+  },
+  "bin": {
+    "create-sveltekit-auth0": "app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lcharleslaing/create-sveltekit-auth0"
+  },
+  "keywords": [
+    "sveltekit",
+    "svelte",
+    "auth0",
+    "authentication"
+  ],
+  "author": "Lee Charles Laing <big2tinydev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/iambig2tiny?fan_landing=true"
+  },
+  "homepage": "https://github.com/lcharleslaing/create-sveltekit-auth0"
+}
