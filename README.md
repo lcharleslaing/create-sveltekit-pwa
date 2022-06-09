@@ -11,7 +11,7 @@
 ## Install
 
 ```sh
-npx create-sveltekit-pwa
+npx create-sveltekit-pwa@latest
 ```
 
 ## CLI Questions
