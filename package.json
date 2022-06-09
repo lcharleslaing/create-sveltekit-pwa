@@ -1,6 +1,6 @@
 {
   "name": "create-sveltekit-pwa",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CLI tool to add PWA functionality to you Sveltekit Project that works GREAT in 5 Minutes!",
   "main": "app.js",
   "dependencies": {
