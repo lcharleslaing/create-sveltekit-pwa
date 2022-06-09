@@ -1,12 +1,12 @@
-# Welcome to create-sveltekit-auth0 👋
-[![Version](https://img.shields.io/npm/v/create-sveltekit-auth0.svg)](https://www.npmjs.com/package/create-sveltekit-auth0)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/lcharleslaing/create-sveltekit-auth0#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/lcharleslaing/create-sveltekit-auth0/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/lcharleslaing/create-sveltekit-auth0)](https://github.com/lcharleslaing/create-sveltekit-auth0/blob/master/LICENSE)
+# Welcome to create-sveltekit-pwa 👋
+[![Version](https://img.shields.io/npm/v/create-sveltekit-pwa.svg)](https://www.npmjs.com/package/create-sveltekit-pwa)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/lcharleslaing/create-sveltekit-pwa#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/lcharleslaing/create-sveltekit-pwa/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/github/license/lcharleslaing/create-sveltekit-pwa)](https://github.com/lcharleslaing/create-sveltekit-pwa/blob/master/LICENSE)
 
 #### A CLI tool to add Auth0 to you Sveltekit Project
 
-### 🏠 [Homepage](https://github.com/lcharleslaing/create-sveltekit-auth0)
+### 🏠 [Homepage](https://github.com/lcharleslaing/create-sveltekit-pwa)
 
 ## Install
 
@@ -19,27 +19,18 @@ npx create-sveltekit-pwa
 
 ## Created Directories/Files
 
-1. Created directories (if they don't already exist)
-    1. ```./src/lib/auth```
-    2. ```./src/lib/components```
-2. Created files or if they exist, they will be prepended to.
-    1. ```NEW-README.md```
-    2. ```RENAME.env```
-    3. ```auth0_config.js```
-    4. ```auth0_service.js```
-    5. ```authStore.js```
-    6. ```NavbarAuth0.svelte```
-    7. ```SveltekitAuth0.svelte```
-    8. ```__layout.svelte```
+1. Created files or if they exist, they will be prepended to.
+    1. ```app.html``` (If it exists, it will prepend the current file)
+    2. ```manifest.json``` (If it exists, it will prepend the current file)
+    3. ```service-worker.js``` (If it exists, it will prepend the current file)
 
 ## Todo's after CLI install
 
- 1. Rename ```RENAME.env``` to ```.env``` or copy contents to existing ```.env```
- 2. Edit .env variables with your Auth0 account credentials
- 3. Rename ```NEW-README.md``` to ```README.md``` or copy desired contents to existing ```README.md```
- 4. ```npm run dev```
- 5. Style the Login & Logout Buttons anyway you'd like.
- 6. Enjoy the creating and if you have any issues, visit my github repo and create an issue.
+ 1. Update ```Manifest.json``` fields accordingly.
+ 2. Build your app in the terminal ```npm run build```
+ 3. Preview your app in the terminal ```npm run preview``` Should Give you a prompt to Install App
+ 4. Run your app in the terminal ```npm run dev``` and continue you development.
+ 5. Enjoy the creating and if you have any issues, visit my github repo and create an issue.
 
 ## Author
 
@@ -52,7 +43,7 @@ npx create-sveltekit-pwa
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/lcharleslaing/create-sveltekit-auth0/issues).
+Feel free to check [issues page](https://github.com/lcharleslaing/create-sveltekit-pwa/issues).
 
 ## Show your support 🍵 or 🥪 = 😁😊
 
@@ -67,7 +58,7 @@ I'd be super grateful if you felt like buying me a ["Coffee🍵or Sandwich🥪"]
 
 Copy-Right/Copy-Claim 2022 [:Lee-Charles :Laing: <big2tinydev@gmail.com>](https://github.com/lcharleslaing).
 
-This project is [MIT](https://github.com/lcharleslaing/create-sveltekit-auth0/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/lcharleslaing/create-sveltekit-pwa/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
